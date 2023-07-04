@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palak's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+               <img src="Images/logo.png" class="logo"> 
+               <ul>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+               </ul>
+            </nav>
+            <div class="header-text">
+                <p>Software Developer</p>
+                <h1>Hi, I'm <span>Palak Singh</span><br>From Patna</h1>
+            </div>
+        </div>
+    </div>
+    <!------------------about----------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Images/three.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Student at CV RAMAN GLOBAL UNIVERSITY in Computer Science Engineering,
+                        having an interest in solving real problems and growing as a developer.
+                        I like interacting with professionals and look forward to being
+                         supervised by experienced authorities.</p>
+
+                         <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')" >Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')" >Experience</p>
+                            <p class="tab-links" onclick="opentab('education')" >Education</p>
+                         </div>
+                         <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Programming Language</span><br>Java,C,JavaScript</li>
+                                <li><span>Front-End Development</span><br>HTML,CSS,JS</li>
+                                <li><span>Database Management</span><br>SQL, MySQL</li>
+                                <li><span>Soft Skills</span><br>Effective Communication, Time 
+                                    management</li>
+                            </ul>
+                         </div>
+                         <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>Front-End Development</span>
+                                    <br>AICTE,IBM SkillsBuild 
+                                    <br>12/06/2023 - Current
+                                </li>
+                                <li><span>Java Training</span>
+                                    <br>Internshala 
+                                    <br>09/2022 - 10/2022
+                                </li>
+                                <li><span>Data Science Internship Program</span>
+                                    <br>Personifwy 
+                                    <br>03/2022-05/2022
+                                </li>
+                            </ul>
+                         </div>
+                         <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>BTech - Computer Science & Engineering</span>
+                                    <br>CV Raman Global University 
+                                    <br>Grade - 8.45 CGPA 
+                                    <br>11/2020 - Current
+                                </li>
+                                <li><span>Intermediate</span>
+                                    <br>Dr. Dukhan Ram DAV Public School (CBSE)
+                                    <br>Grade - 83% 
+                                    <br>08/2018 - 03/2020
+                                </li>
+                                <li><span>Matriculation</span>
+                                    <br>DAV Public School, Gaya (CBSE) 
+                                    <br>Grade - 80% 
+                                    <br>08/2015 - 04/2018
+                                </li>
+                            </ul>
+                         </div>
+                </div>
+                <div class="home-icon-section">
+                    <a href="#header" class="home-icon"><i class="fa-solid fa-house"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!------------------services-------------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-sharp fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Designing and building the interface, navigation 
+                       and aesthetic of websites for businesses and clients.</p>
+                       <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-java"></i>
+                    <h2>Java Development</h2>
+                    <p>Developing applications and software using the 
+                       Java programming language.</p>
+                       <a href="#">Learn more</a>
+                </div>
+            </div>
+            <div class="home-icon-section">
+                <a href="#header" class="home-icon"><i class="fa-solid fa-house"></i></a>
+            </div>
+        </div>
+    </div>
+    <!-- ---------------portfolio---------- -->
+    <br>
+    <br>
+    <br>
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="Images/four.jpg">
+                    <div class="layer">
+                        <h3>Myntra Clone</h3>
+                        <p>This is a front-end clone app of Myntra using 
+                            HTML, CSS, and JavaScript. This helped me to 
+                            enhance my front-end skills.</p>
+                            <a href="https://github.com/palaksingh8883/Myntra-Clone"><i class="fa-solid fa-arrow-up-right-from-square" style="color:#4b6eaa"></i></a>
+                    </div>                
+                </div>
+                <div class="work">
+                    <img src="Images/five.jpg">
+                    <div class="layer">
+                        <h3>Portfolio</h3>
+                        <p>This is a collection of records that reflect my own 
+                           accomplishments, skills, experiences, and attributes.</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"style="color:#4b6eaa"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/six.jpg">
+                    <div class="layer">
+                        <h3>BQ-Master</h3>
+                        <p>This is a Java desktop application (game) that is built using Java 
+                            Swing. Learned using types of Java Swing classes to build a game 
+                            that refresh our childhood</p>
+                            <a href="https://github.com/palaksingh8883/BQ-master"><i class="fa-solid fa-arrow-up-right-from-square"style="color:#4b6eaa"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+            <div class="home-icon-section">
+                <a href="#header" class="home-icon"><i class="fa-solid fa-house"></i></a>
+            </div>
+        </div>
+    </div>
+    <!--------------contact-------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i> palak0302singh@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> 6202739076</p>
+                    <div class="social-icons">
+                        <a href="https://instagram.com/singh_palak002?igshid=ZGUzMzM3NWJiOQ=="><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://t.me/palaksingh8883"><i class="fa-brands fa-telegram"></i></a>
+                        <a href="https://www.linkedin.com/in/palak-singh-28439b216/"><i class="fa-brands fa-linkedin"></i></a>
+                        
+                    </div>
+                    <a href="Images/Palak_Resume.pdf" download class="btn btn2">Downoad CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required >
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+            <div class="home-icon-section">
+                <a href="#header" class="home-icon"><i class="fa-solid fa-house"></i></a>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright &#169 Palak.</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
