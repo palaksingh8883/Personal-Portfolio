@@ -28,10 +28,4 @@ const scriptURL = 'https://script.google.com/macros/s/AKfycbya9mD-W_1h3Zw4qqUaO1
             .catch(error => console.error('Error!', error.message))
         })
 
-        const typed = new Typed('.multiple-text',{
-            strings: ['Frontend Developer', 'Java Developer'],
-            typeSpeed: 100,
-            backSpeed: 100,
-            backDelay: 1000,
-            loop: true
-        });
+       
